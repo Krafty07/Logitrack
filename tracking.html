@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Your Shipment - LogiTrack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tracking.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="LogiTrack logo" />
+        </div>
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="#services">Services</a>
+            <a href="order.html">Order</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="tracking.html" class="active">Track Shipment</a>
+        </nav>
+    </header>
+
+    <main class="tracking-main">
+        <section class="tracking-section">
+            <h1>Track Your Shipment</h1>
+            <form id="tracking-form" class="tracking-form">
+                <label for="tracking-number">Enter your tracking number:</label>
+                <input type="text" id="tracking-number" placeholder="e.g., 12345" required>
+                <button type="submit">Track</button>
+            </form>
+            <div id="tracking-result" class="hidden">
+                <h2>Tracking Information</h2>
+                <div id="result-content" class="result-content"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 LogiTrack Services. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="tracking.js"></script>
+</body>
+</html>

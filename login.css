@@ -1,0 +1,101 @@
+/* Top Bar with Logo */
+.top-bar {
+    background-color: #008080;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.top-bar .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.5rem;
+}
+
+.top-bar .logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* General styling for login and signup pages */
+.auth-container {
+    max-width: 400px;
+    margin: 5% auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+    text-align: center;
+    color: #008080;
+    margin-bottom: 1.5rem;
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-container label {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 0.5rem;
+}
+
+.auth-container input[type="text"],
+.auth-container input[type="email"],
+.auth-container input[type="password"] {
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.auth-container button {
+    padding: 0.7rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #008080;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-container button:hover {
+    background-color: #005f5f;
+}
+
+.auth-container p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.auth-container a {
+    color: #008080;
+    text-decoration: none;
+}
+
+.auth-container a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+
+.footer {
+    background-color: #008080;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}

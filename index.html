@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogiTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Navigation and Logo -->
+    <header>
+        <div class="logo"> <!-- Placeholder for Logo -->
+            <img src="images/logo.png" alt="LogiTrack" />
+        </div>
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="#services">Services</a>
+            <a href="order.html">Order</a>
+            <a href="tracking.html">Tracking</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Fast, Reliable Logistics Solutions</h1>
+            <p>Get your packages delivered on time, every time. Experience seamless logistics services with live tracking and exceptional customer support.</p>
+            <a href="login.html" class="cta-button" class id="get-started-button">Get Started</a>
+        </div>
+        <div id="welcome-container" style="display: none;">
+            <p id="welcome-message"></p>
+            <button id="logout-button" onclick="logout()">Logout</button>
+        </div>
+    </section>
+
+    <!-- Unique Selling Proposition (USP) Section -->
+    <section class="usp">
+        <h2>Why Choose Us?</h2>
+        <div class="usp-cards">
+            <div class="usp-card">
+                <h3>Real-Time Tracking</h3>
+                <p>Monitor your shipments every step of the way with accurate, real-time tracking technology.</p>
+            </div>
+            <div class="usp-card">
+                <h3>24/7 Customer Support</h3>
+                <p>Our team is here around the clock to assist you with all your logistics needs.</p>
+            </div>
+            <div class="usp-card">
+                <h3>Global Coverage</h3>
+                <p>We cover routes across the globe, ensuring your packages reach their destination, no matter the distance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Services Section -->
+    <section id="services" class="services">
+        <h2>Our Key Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Express Shipping</h3>
+                <p>Get fast and reliable delivery solutions for urgent shipments worldwide.</p>   
+                <button id="express-toggle" class="service-toggle">Express Shipping</button>
+                <div id="express-content" class="collapsible-content">
+                <p>With our express shipping service, we ensure your packages are delivered quickly and reliably...</p>
+                <ul>
+                    <li>Same-day and overnight options</li>
+                    <li>Real-time tracking</li>
+                    <li>International shipping options</li>
+                </ul>
+             </div>
+        </div>
+            <div class="service-card">
+                <h3>Warehousing Solutions</h3>
+                <p>Modern storage facilities with full inventory management for your supply chain.</p>
+                <button id="warehousing-toggle" class="service-toggle">Warehousing Solutions</button>
+                <!-- Collapsible Content -->
+                <div id="warehousing-content" class="collapsible-content">
+                    <p>
+                        Our warehousing solutions provide secure, spacious, and efficient storage facilities for your goods.
+                        With real-time inventory management and seamless access, we ensure your products are always ready for
+                        dispatch. Our facilities are equipped to handle products of all types and sizes, from small packages to bulk storage.
+                    </p>
+                    <ul>
+                        <li>Secure and climate-controlled storage</li>
+                        <li>Inventory management and tracking</li>
+                        <li>Flexible storage options</li>
+                        <li>24/7 facility access</li>
+                    </ul>
+                </div> 
+            </div>
+            <div class="service-card">
+                <h3>Custom Clearance</h3>
+                <p>Efficient custom clearance to help you navigate international shipping processes.</p>
+                <button id="customs-toggle" class="service-toggle">Custom Clearance</button>
+                <div id="customs-content" class="collapsible-content">
+                    <p>Our custom clearance service streamlines the import/export process by handling all necessary documentation...</p>
+                    <ul>
+                        <li>Expert assistance with customs regulations</li>
+                        <li>Documentation and compliance support</li>
+                        <li>24/7 support for seamless clearance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Testimonial Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <p>"Excellent service! My packages arrived on time, and the tracking updates were spot-on."</p>
+                <h4>– Sarah L.</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"Customer support was very helpful and quick to respond. Highly recommend this company."</p>
+                <h4>– Mark T.</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"Reliable, fast, and professional! They took care of everything from start to finish."</p>
+                <h4>– Laura W.</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 LogiTrack Services. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="toggle.js"></script>
+    <script src="home.js"></script>
+
+</body>
+</html>

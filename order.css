@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #008080;
+    color: white;
+}
+section {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+form label, form input, form textarea {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #008080;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #005f5f;
+}
+
+.dimensions {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.dimensions h3 {
+    margin-top: 0;
+}
